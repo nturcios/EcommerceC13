@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <script src="./index.js"></script>
+</head>
+<!-- NavBar -->
+<header> 
+    <img href="JavaScriptLogo.png">
+        <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+    <!-- A Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay/ Items in Nav -->
+    <div class="overlay-content">
+      <a href="./home.html">Home</a>
+      <a href="./products.html">Products</a>
+      <a href="./contact.html">Contact Us</a>
+    </div>
+  
+  </div>
+  
+  <!--  element to open/show the overlay navigation menu -->
+  <button>
+  <span onclick="openNav()">Menu</span> 
+</button>
+</header>
+<body>
+    <!-- end of my navbar -->
+    <h1>¿Who Knows?</h1>
+    <h2>Shoe Inventory</h2>
+    <div id="product-list"></div>
+  
+    <script>
+      fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+          const productList = document.getElementById('product-list');
+  
+          data.products.forEach(product => {
+            const productContainer = document.createElement('div');
+            productContainer.classList.add('product');
+  
+            const productImg = document.createElement('img');
+            productImg.src = product.image;
+            productContainer.appendChild(productImg);
+  
+            const productTitle = document.createElement('h3');
+            productTitle.textContent = product.title;
+            productContainer.appendChild(productTitle);
+  
+            const productDescription = document.createElement('h4');
+            productDescription.textContent = product.description;
+            productContainer.appendChild(productDescription);
+
+            const productPrice = document.createElement('p');
+            productPrice.textContent = 'Price: ' + product.price;
+            productContainer.appendChild(productPrice);
+  
+            const productButton = document.createElement("button");
+            productButton.textContent = product.button;
+            productContainer.appendChild(productButton);
+  
+            productList.appendChild(productContainer);
+          });
+        })
+        .catch(error => {
+          console.log('Error fetching products:', error);
+        });
+    </script>
+    
+
+    <script src="./index.js"></script>
+ 
+    <footer>
+        <a class="icons">
+            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://instagram.com" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://google.com" target="_blank" class="fa fa-google"></a>
+       </a>
+    <ul class=" footer-extras">
+        <ul><a href="./home.html">    Home</a></ul>
+        <ul><a href="./products.html">Products</a></ul>
+        <ul><a href="./comingsoon.html">Coming Soon</a></ul>
+        <ul><a href="./contact.html">Contact Us</a></ul>
+        <ul>About Us</ul>
+        <ul>Locations</ul>
+        <ul>My Account</ul>
+        <ul>Track Order</ul>
+        <ul>Air Jordans</ul>
+        <ul>Nike Dunks</ul>
+        <ul>Foamposite</ul>
+        <ul>Nike Kobes</ul>
+    </ul>
+          </footer>
+        </div>
+  
+</body>
+</html>

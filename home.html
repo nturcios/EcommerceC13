@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+</head>
+
+<!-- NavBar -->
+    <header> 
+        <!-- <img href="JavaScriptLogo.png"> -->
+            <!-- The overlay -->
+     <div class="myHomeNav"> <!--class="overlay" -->
+    
+         <!-- A Button to close the overlay navigation -->
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+      
+        <!-- Overlay/ Items in Nav -->
+        <div class="overlay-content">
+          <a class= "homea" href="./home.html">Home</a>
+          <a class= "homea" href="./products.html">Products</a>
+          <a class= "homea" href="./contact.html">Contact Us</a>
+        </div>
+      
+      </div>
+      
+       <!-- element to open/show the overlay navigation menu -->
+      <!-- <button>
+      <span onclick="openNav()">Menu</span> 
+    </button> -->
+    </header>
+
+<body>
+   
+<h1 class= "homeTitle">¿Who Knows?</h1>
+<p class= "homeText1">"Those Who Know Dont Tell.</p>
+<p class= "homeText2">Those Who Tell Dont Know."</p>
+    <div class="slide-container">
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="products/jordan1.png" alt="" ></div>
+      <div class="swiper-slide"><img src="products/jordan4.png" alt="" ></div>
+      <div class="swiper-slide"><img src="products/jordan7.png" alt="" ></div>
+      <div class="swiper-slide"><img src="products/jordan11.png" alt="" ></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    </div>
+
+   <script defer src="./index.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+
+ <script>const swiper = new Swiper('.swiper', {
+    loop: true,
+  
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });</script>
+
+
+<div class="hero-image">
+    <img class="img" src="products/hero.jpg">
+    <div class="hero-text">
+        <h1 class="Essentials"></h1>
+    </div>
+</div>
+
+
+
+<footer>
+    <a class="icons">
+        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://instagram.com" target="_blank" class="fa fa-instagram"></a>
+    <a href="https://google.com" target="_blank" class="fa fa-google"></a>
+   </a>
+<ul class=" footer-extras">
+    <ul><a href="./home.html">    Home</a></ul>
+    <ul><a href="./products.html">Products</a></ul>
+    <ul><a href="./comingsoon.html">Coming Soon</a></ul>
+    <ul><a href="./contact.html">Contact Us</a></ul>
+    <ul>About Us</ul>
+    <ul>Locations</ul>
+    <ul>My Account</ul>
+    <ul>Track Order</ul>
+    <ul>Air Jordans</ul>
+    <ul>Nike Dunks</ul>
+    <ul>Foamposite</ul>
+    <ul>Nike Kobes</ul>
+</ul>
+      </footer>
+    </div>
+
+</body>
+</html>

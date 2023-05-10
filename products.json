@@ -1,0 +1,102 @@
+{
+"products": [
+    {   "image" : "products/jordan1.jpg",
+        "title" :"Retro Jordan 1 Chicago lost & found", 
+        "description" : "Featuring the high-cut shape of the original 1985 release, the leather upper combines a white base with a black signature Swoosh and scarlet overlays at the forefoot and heel. Cracked black leather appears on the padded collar, while a vintage pre-yellowed finish is applied to the white rubber midsole. ",
+        "price" : "$300.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan2.jpg",
+        "title" :"Retro Jordan 2 White Cement" ,
+        "description" : "The white leather upper features a tonal lizard-textured overlay, framed in black and grey piping and accented with a grey molded heel tab. The latter is marked with an embossed Nike wordmark, while a grey Wings logo adorns the tongue. A polyurethane midsole packs encapsulated Air-sole cushioning",
+        "price" : "$180.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan3.jpg",
+        "title" :"Retro Jordan 3 White Cement" ,
+        "description" : "the white leather upper pairs with elephant print overlays on the heel and toe while hits of Varsity Red appear on the lace loops and the Jumpman logo on the tongue. Nike Air is emblazoned on the back heel tab, while a visible Air unit provides lightweight cushioning.",
+        "price" : "$200.00",
+        "button":"Add To Cart"
+        
+    },
+
+    {
+        "image" : "products/jordan4.jpg",
+        "title" : " Retro Jordan 4 Fear",
+        "description" : "a black, Pure Platinum, and Cool Grey upper with white accents. The design also includes a black speckled midsole, red Nike Air unit, and a white outsole. Released in August 2013",
+        "price" : "$650.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan5.jpg",
+        "title" : "Retro Jordan 5 Raging Bulls",
+        "description" : "The shoes defining feature is a plush Varsity Red suede upper, equipped with black eyelets and a Jumpman-branded reflective silver tongue. The heel overlay displays a second Jumpman logo and an embroidered 23 on the lateral side. ",
+        "price" : "$200.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan6.jpg",
+        "title" : "Retro Jordan 6 Laker",
+        "description" : "In 2009, Jordan Brand released a few colorways to honor Michael Jordans road to six championships. The Air Jordan 6 Retro 'Lakers' features a black nubuck upper with perforations and black leather overlays with visible stitching. ",
+        "price" : "$280.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan7.jpg",
+        "title" : "Retro Jordan 7 DMP",
+        "description" : "This edition of the Air Jordan 7 was released as part of the Defining Moments Package. This half of the pack, the Raptors half, features a black and charcoal nubuck upper with hits of red on the midsole and Jumpman emblem.",
+        "price" : "$650.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan8.jpg",
+        "title" : "Retro Jordan 8 Playoffs",
+        "description" : "the sneaker worn by Michael Jordan during Game 6 of the 1993 NBA Finals against the Phoenix Suns. The win sealed Michael Jordan and the Bulls' first three-peat NBA Championship and gave Jordan his third-straight Finals MVP. Staying faithful to the original design, the 'Playoff' features a black nubuck suede upper with white, black, and True Red graphical overlays at the ankles.",
+        "price" : "$300.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan9.jpg",
+        "title" : "Retro Jordan 9 Baron",
+        "description" : "he white, black, and Wolf Grey colorway features pinstripe detailing on the heel collar, a 3M heel tab, and Jordan's baseball jersey #45 at the heel. Released in April 2014",
+        "price" : "$250.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan10.jpg",
+        "title" : "Retro Jordan 10 Steel",
+        "description" : "The design combines a white tumbled leather upper with black and light Steel Grey accents. The sneaker also comes with a white midsole and a striped black and light steel grey outsole that features a timeline of Michael Jordan's career achievements.",
+        "price" : "$350.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan11.jpg",
+        "title" : "Retro Jordan 11 Silver Anniversary",
+        "description" : "a special May 2010 release celebrating Jordan Brands 25th Anniversary. Upon its release, controversy surrounded the Jordan 11 model in particular, as the Jumpman logo was intentionally missing from the collar. The sneakers crisp white and metallic silver leather upper is finished with tonal accents. ",
+        "price" : "$450.00",
+        "button":"Add To Cart"
+    },
+
+    {
+        "image" : "products/jordan12.jpg",
+        "title" : "Retro Jordan 12 Flu Game" ,
+        "description" : "Michael Jordans legendary performance in Game 5 of the 1997 NBA Finals. Battling flu-like symptoms, Jordan lead the Bulls to a 3-2 series lead over the Utah Jazz, OG design with its black tumbled leather upper and varsity red on the mudguard and outsole. ",
+        "price" : "$320.00" ,
+        "button":"Add To Cart"
+    }
+ ]
+}
+
+
+

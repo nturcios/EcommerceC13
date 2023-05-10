@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="hero-img">
+
+
+    <header> 
+        <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+    <!-- A Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay/ Items in Nav -->
+    <div class="overlay-content">
+      <a href="./home.html">Home</a>
+      <a href="./products.html">Products</a>
+      <a href="./contact.html">Contact Us</a>
+    </div>
+  
+  </div>
+  
+  <!--  element to open/show the overlay navigation menu -->
+  <button>
+  <span onclick="openNav()">Menu</span> 
+</button>
+           </header>
+
+           <div class="contact container">
+           <nav class="sub-title">
+            <ol class="small-form-name">
+            <ui title="Who knows">
+            <a class="form-title" href ="home.html">¿Who Knows?</a>
+            </li>
+            </ol>
+        </nav>
+
+        <div class="form-container">
+            
+            <div class="contactForm">
+                <form id ="form" action ="/">   
+            <h1 class="form-header">Contact Us</h1> 
+            <label for="Subject">Choose a subject:</label required>
+
+            <select class="subject" name="subject" required >
+                    <option value="Charged amount">Charged amount</option>
+                    <option value="Missing Order">Missing Order</option>
+                    <option value="Return">Return</option>
+                    <option value="Cancel">Cancel Order</option>
+            </select>
+            <div class="input-control">
+                <label for="Full Name">Full Name</label>
+                <input id="fullName" name="Full Name" type="text"> 
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="Email">Email</label>
+                <input id="email" name="Email" type="email">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="Comment">Comment</label>
+                <input id="comment" name="Comment" type="text">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+
+
+
+
+
+      </form>
+          </div>
+        </div>
+    </div>
+
+      <footer>
+    <a class="icons">
+        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://instagram.com" target="_blank" class="fa fa-instagram"></a>
+    <a href="https://google.com" target="_blank" class="fa fa-google"></a>
+   </a>
+<ul class=" footer-extras">
+    <ul><a href="./home.html">    Home</a></ul>
+    <ul><a href="./products.html">Products</a></ul>
+    <ul><a href="./comingsoon.html">Coming Soon</a></ul>
+    <ul><a href="./contact.html">Contact Us</a></ul>
+    <ul>About Us</ul>
+    <ul>Locations</ul>
+    <ul>My Account</ul>
+    <ul>Track Order</ul>
+    <ul>Air Jordans</ul>
+    <ul>Nike Dunks</ul>
+    <ul>Foamposite</ul>
+    <ul>Nike Kobes</ul>
+</ul>
+      </footer>
+    </div>
+
+</body>
+</html>
